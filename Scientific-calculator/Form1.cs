@@ -16,5 +16,26 @@ namespace Scientific_calculator
         {
             InitializeComponent();
         }
+
+        private void splitButton1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void buttonAdv1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void standardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Width = 309;
+            txtDisplay.Width = 272;
+        }
+
+        private void textBoxExt1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
