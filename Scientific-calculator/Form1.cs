@@ -29,13 +29,19 @@ namespace Scientific_calculator
 
         private void standardToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Width = 309;
-            txtDisplay.Width = 272;
+            this.Width = 302;
+            txtDisplay.Width = 270;
         }
 
         private void textBoxExt1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void scientificToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Width = 604;
+            txtDisplay.Width = 270;
         }
     }
 }
