@@ -29,7 +29,7 @@ namespace Scientific_calculator
 
         private void standardToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Width = 302;
+            this.Width = 308;
             txtDisplay.Width = 270;
         }
 
@@ -40,8 +40,42 @@ namespace Scientific_calculator
 
         private void scientificToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Width = 604;
+            this.Width = 616;
+            txtDisplay.Width = 581;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Width = 308;
             txtDisplay.Width = 270;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void temperatureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Width = 920;
+            txtDisplay.Width = 581;
+        }
+
+        private void unitConversionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Width = 920;
+            txtDisplay.Width = 581;
+        }
+
+        private void multiplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Width = 920;
+            txtDisplay.Width = 581;
         }
     }
 }

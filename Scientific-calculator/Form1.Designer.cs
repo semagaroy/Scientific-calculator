@@ -80,8 +80,22 @@
             this.multiplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.txtDisplay)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonAdv1
@@ -410,14 +424,14 @@
             // txtDisplay
             // 
             this.txtDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(245)))), ((int)(((byte)(253)))));
-            this.txtDisplay.BeforeTouchSize = new System.Drawing.Size(272, 90);
+            this.txtDisplay.BeforeTouchSize = new System.Drawing.Size(581, 90);
             this.txtDisplay.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(202)))), ((int)(((byte)(221)))));
             this.txtDisplay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDisplay.Location = new System.Drawing.Point(10, 41);
+            this.txtDisplay.Location = new System.Drawing.Point(9, 41);
             this.txtDisplay.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.txtDisplay.Multiline = true;
             this.txtDisplay.Name = "txtDisplay";
-            this.txtDisplay.Size = new System.Drawing.Size(272, 90);
+            this.txtDisplay.Size = new System.Drawing.Size(581, 90);
             this.txtDisplay.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Office2010;
             this.txtDisplay.TabIndex = 21;
             this.txtDisplay.Text = "textBoxExt1";
@@ -431,7 +445,7 @@
             this.buttonAdv21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv21.IsBackStageButton = false;
             this.buttonAdv21.KeepFocusRectangle = false;
-            this.buttonAdv21.Location = new System.Drawing.Point(514, 395);
+            this.buttonAdv21.Location = new System.Drawing.Point(522, 395);
             this.buttonAdv21.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv21.Name = "buttonAdv21";
             this.buttonAdv21.Size = new System.Drawing.Size(67, 63);
@@ -447,7 +461,7 @@
             this.buttonAdv22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv22.IsBackStageButton = false;
             this.buttonAdv22.KeepFocusRectangle = false;
-            this.buttonAdv22.Location = new System.Drawing.Point(445, 395);
+            this.buttonAdv22.Location = new System.Drawing.Point(453, 395);
             this.buttonAdv22.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv22.Name = "buttonAdv22";
             this.buttonAdv22.Size = new System.Drawing.Size(67, 63);
@@ -463,7 +477,7 @@
             this.buttonAdv23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv23.IsBackStageButton = false;
             this.buttonAdv23.KeepFocusRectangle = false;
-            this.buttonAdv23.Location = new System.Drawing.Point(376, 395);
+            this.buttonAdv23.Location = new System.Drawing.Point(384, 395);
             this.buttonAdv23.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv23.Name = "buttonAdv23";
             this.buttonAdv23.Size = new System.Drawing.Size(67, 63);
@@ -479,7 +493,7 @@
             this.buttonAdv24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv24.IsBackStageButton = false;
             this.buttonAdv24.KeepFocusRectangle = false;
-            this.buttonAdv24.Location = new System.Drawing.Point(307, 395);
+            this.buttonAdv24.Location = new System.Drawing.Point(315, 395);
             this.buttonAdv24.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv24.Name = "buttonAdv24";
             this.buttonAdv24.Size = new System.Drawing.Size(67, 63);
@@ -495,7 +509,7 @@
             this.buttonAdv25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv25.IsBackStageButton = false;
             this.buttonAdv25.KeepFocusRectangle = false;
-            this.buttonAdv25.Location = new System.Drawing.Point(514, 330);
+            this.buttonAdv25.Location = new System.Drawing.Point(522, 330);
             this.buttonAdv25.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv25.Name = "buttonAdv25";
             this.buttonAdv25.Size = new System.Drawing.Size(67, 63);
@@ -511,7 +525,7 @@
             this.buttonAdv26.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv26.IsBackStageButton = false;
             this.buttonAdv26.KeepFocusRectangle = false;
-            this.buttonAdv26.Location = new System.Drawing.Point(445, 330);
+            this.buttonAdv26.Location = new System.Drawing.Point(453, 330);
             this.buttonAdv26.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv26.Name = "buttonAdv26";
             this.buttonAdv26.Size = new System.Drawing.Size(67, 63);
@@ -527,7 +541,7 @@
             this.buttonAdv27.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv27.IsBackStageButton = false;
             this.buttonAdv27.KeepFocusRectangle = false;
-            this.buttonAdv27.Location = new System.Drawing.Point(376, 330);
+            this.buttonAdv27.Location = new System.Drawing.Point(384, 330);
             this.buttonAdv27.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv27.Name = "buttonAdv27";
             this.buttonAdv27.Size = new System.Drawing.Size(67, 63);
@@ -543,7 +557,7 @@
             this.buttonAdv28.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv28.IsBackStageButton = false;
             this.buttonAdv28.KeepFocusRectangle = false;
-            this.buttonAdv28.Location = new System.Drawing.Point(307, 330);
+            this.buttonAdv28.Location = new System.Drawing.Point(315, 330);
             this.buttonAdv28.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv28.Name = "buttonAdv28";
             this.buttonAdv28.Size = new System.Drawing.Size(67, 63);
@@ -559,7 +573,7 @@
             this.buttonAdv29.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv29.IsBackStageButton = false;
             this.buttonAdv29.KeepFocusRectangle = false;
-            this.buttonAdv29.Location = new System.Drawing.Point(515, 265);
+            this.buttonAdv29.Location = new System.Drawing.Point(523, 265);
             this.buttonAdv29.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv29.Name = "buttonAdv29";
             this.buttonAdv29.Size = new System.Drawing.Size(67, 63);
@@ -575,7 +589,7 @@
             this.buttonAdv30.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv30.IsBackStageButton = false;
             this.buttonAdv30.KeepFocusRectangle = false;
-            this.buttonAdv30.Location = new System.Drawing.Point(446, 265);
+            this.buttonAdv30.Location = new System.Drawing.Point(454, 265);
             this.buttonAdv30.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv30.Name = "buttonAdv30";
             this.buttonAdv30.Size = new System.Drawing.Size(67, 63);
@@ -591,7 +605,7 @@
             this.buttonAdv31.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv31.IsBackStageButton = false;
             this.buttonAdv31.KeepFocusRectangle = false;
-            this.buttonAdv31.Location = new System.Drawing.Point(377, 265);
+            this.buttonAdv31.Location = new System.Drawing.Point(385, 265);
             this.buttonAdv31.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv31.Name = "buttonAdv31";
             this.buttonAdv31.Size = new System.Drawing.Size(67, 63);
@@ -607,7 +621,7 @@
             this.buttonAdv32.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv32.IsBackStageButton = false;
             this.buttonAdv32.KeepFocusRectangle = false;
-            this.buttonAdv32.Location = new System.Drawing.Point(308, 265);
+            this.buttonAdv32.Location = new System.Drawing.Point(316, 265);
             this.buttonAdv32.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv32.Name = "buttonAdv32";
             this.buttonAdv32.Size = new System.Drawing.Size(67, 63);
@@ -623,7 +637,7 @@
             this.buttonAdv33.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv33.IsBackStageButton = false;
             this.buttonAdv33.KeepFocusRectangle = false;
-            this.buttonAdv33.Location = new System.Drawing.Point(516, 200);
+            this.buttonAdv33.Location = new System.Drawing.Point(524, 200);
             this.buttonAdv33.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv33.Name = "buttonAdv33";
             this.buttonAdv33.Size = new System.Drawing.Size(67, 63);
@@ -639,7 +653,7 @@
             this.buttonAdv34.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv34.IsBackStageButton = false;
             this.buttonAdv34.KeepFocusRectangle = false;
-            this.buttonAdv34.Location = new System.Drawing.Point(447, 200);
+            this.buttonAdv34.Location = new System.Drawing.Point(455, 200);
             this.buttonAdv34.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv34.Name = "buttonAdv34";
             this.buttonAdv34.Size = new System.Drawing.Size(67, 63);
@@ -655,7 +669,7 @@
             this.buttonAdv35.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv35.IsBackStageButton = false;
             this.buttonAdv35.KeepFocusRectangle = false;
-            this.buttonAdv35.Location = new System.Drawing.Point(378, 200);
+            this.buttonAdv35.Location = new System.Drawing.Point(386, 200);
             this.buttonAdv35.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv35.Name = "buttonAdv35";
             this.buttonAdv35.Size = new System.Drawing.Size(67, 63);
@@ -671,7 +685,7 @@
             this.buttonAdv36.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv36.IsBackStageButton = false;
             this.buttonAdv36.KeepFocusRectangle = false;
-            this.buttonAdv36.Location = new System.Drawing.Point(309, 200);
+            this.buttonAdv36.Location = new System.Drawing.Point(317, 200);
             this.buttonAdv36.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv36.Name = "buttonAdv36";
             this.buttonAdv36.Size = new System.Drawing.Size(67, 63);
@@ -687,7 +701,7 @@
             this.buttonAdv37.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv37.IsBackStageButton = false;
             this.buttonAdv37.KeepFocusRectangle = false;
-            this.buttonAdv37.Location = new System.Drawing.Point(516, 135);
+            this.buttonAdv37.Location = new System.Drawing.Point(524, 135);
             this.buttonAdv37.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv37.Name = "buttonAdv37";
             this.buttonAdv37.Size = new System.Drawing.Size(67, 63);
@@ -703,7 +717,7 @@
             this.buttonAdv38.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv38.IsBackStageButton = false;
             this.buttonAdv38.KeepFocusRectangle = false;
-            this.buttonAdv38.Location = new System.Drawing.Point(447, 135);
+            this.buttonAdv38.Location = new System.Drawing.Point(455, 135);
             this.buttonAdv38.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv38.Name = "buttonAdv38";
             this.buttonAdv38.Size = new System.Drawing.Size(67, 63);
@@ -719,7 +733,7 @@
             this.buttonAdv39.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv39.IsBackStageButton = false;
             this.buttonAdv39.KeepFocusRectangle = false;
-            this.buttonAdv39.Location = new System.Drawing.Point(378, 135);
+            this.buttonAdv39.Location = new System.Drawing.Point(386, 135);
             this.buttonAdv39.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv39.Name = "buttonAdv39";
             this.buttonAdv39.Size = new System.Drawing.Size(67, 63);
@@ -736,7 +750,7 @@
             this.buttonAdv40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv40.IsBackStageButton = false;
             this.buttonAdv40.KeepFocusRectangle = false;
-            this.buttonAdv40.Location = new System.Drawing.Point(309, 135);
+            this.buttonAdv40.Location = new System.Drawing.Point(317, 135);
             this.buttonAdv40.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv40.Name = "buttonAdv40";
             this.buttonAdv40.Size = new System.Drawing.Size(67, 63);
@@ -761,7 +775,7 @@
             this.viewToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(591, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(904, 24);
             this.menuStrip1.TabIndex = 43;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -796,18 +810,21 @@
             this.temperatureToolStripMenuItem.Name = "temperatureToolStripMenuItem";
             this.temperatureToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.temperatureToolStripMenuItem.Text = "Temperature";
+            this.temperatureToolStripMenuItem.Click += new System.EventHandler(this.temperatureToolStripMenuItem_Click);
             // 
             // unitConversionToolStripMenuItem
             // 
             this.unitConversionToolStripMenuItem.Name = "unitConversionToolStripMenuItem";
             this.unitConversionToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.unitConversionToolStripMenuItem.Text = "Unit Conversion";
+            this.unitConversionToolStripMenuItem.Click += new System.EventHandler(this.unitConversionToolStripMenuItem_Click);
             // 
             // multiplicationToolStripMenuItem
             // 
             this.multiplicationToolStripMenuItem.Name = "multiplicationToolStripMenuItem";
             this.multiplicationToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.multiplicationToolStripMenuItem.Text = "Multiplication";
+            this.multiplicationToolStripMenuItem.Click += new System.EventHandler(this.multiplicationToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
@@ -821,11 +838,151 @@
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.viewToolStripMenuItem.Text = "View";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.groupBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(621, 41);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(275, 416);
+            this.groupBox1.TabIndex = 44;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Temperature";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(170, 20);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Enter Value to Convert";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(6, 276);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Result of Converted Value";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(175, 354);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(13, 354);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(86, 35);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(188, 289);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 20);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "label3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(9, 307);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 20);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Convert";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(182, 50);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(83, 26);
+            this.textBox1.TabIndex = 9;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox2.Controls.Add(this.radioButton3);
+            this.groupBox2.Controls.Add(this.radioButton2);
+            this.groupBox2.Controls.Add(this.radioButton1);
+            this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(6, 94);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(263, 163);
+            this.groupBox2.TabIndex = 10;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Select Temperature for Conversion";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(15, 121);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(119, 24);
+            this.radioButton3.TabIndex = 5;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(14, 80);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(177, 24);
+            this.radioButton2.TabIndex = 4;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Fahrenheit to Celsius";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(14, 39);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(177, 24);
+            this.radioButton1.TabIndex = 3;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Celcius to Fahrenheit";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 466);
+            this.ClientSize = new System.Drawing.Size(904, 466);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.autoLabel1);
             this.Controls.Add(this.buttonAdv21);
             this.Controls.Add(this.buttonAdv22);
@@ -872,9 +1029,14 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtDisplay)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -932,6 +1094,18 @@
         private System.Windows.Forms.ToolStripMenuItem multiplicationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
