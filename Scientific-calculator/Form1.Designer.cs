@@ -49,7 +49,6 @@
             this.buttonAdv18 = new Syncfusion.Windows.Forms.ButtonAdv();
             this.buttonAdv19 = new Syncfusion.Windows.Forms.ButtonAdv();
             this.buttonAdv20 = new Syncfusion.Windows.Forms.ButtonAdv();
-            this.txtDisplay = new Syncfusion.Windows.Forms.Tools.TextBoxExt();
             this.buttonAdv21 = new Syncfusion.Windows.Forms.ButtonAdv();
             this.buttonAdv22 = new Syncfusion.Windows.Forms.ButtonAdv();
             this.buttonAdv23 = new Syncfusion.Windows.Forms.ButtonAdv();
@@ -81,18 +80,19 @@
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDisplay)).BeginInit();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtDisplay = new System.Windows.Forms.TextBox();
+            this.autoLabel2 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -132,6 +132,7 @@
             this.buttonAdv2.TabIndex = 2;
             this.buttonAdv2.Text = "CE";
             this.buttonAdv2.UseVisualStyle = true;
+            this.buttonAdv2.Click += new System.EventHandler(this.buttonAdv2_Click);
             // 
             // buttonAdv3
             // 
@@ -148,6 +149,7 @@
             this.buttonAdv3.TabIndex = 3;
             this.buttonAdv3.Text = "C";
             this.buttonAdv3.UseVisualStyle = true;
+            this.buttonAdv3.Click += new System.EventHandler(this.buttonAdv3_Click);
             // 
             // buttonAdv4
             // 
@@ -180,6 +182,7 @@
             this.buttonAdv5.TabIndex = 8;
             this.buttonAdv5.Text = "+";
             this.buttonAdv5.UseVisualStyle = true;
+            this.buttonAdv5.Click += new System.EventHandler(this.Arithematic_operations);
             // 
             // buttonAdv6
             // 
@@ -196,6 +199,7 @@
             this.buttonAdv6.TabIndex = 7;
             this.buttonAdv6.Text = "9";
             this.buttonAdv6.UseVisualStyle = true;
+            this.buttonAdv6.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv7
             // 
@@ -212,6 +216,7 @@
             this.buttonAdv7.TabIndex = 6;
             this.buttonAdv7.Text = "8";
             this.buttonAdv7.UseVisualStyle = true;
+            this.buttonAdv7.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv8
             // 
@@ -228,6 +233,7 @@
             this.buttonAdv8.TabIndex = 5;
             this.buttonAdv8.Text = "7";
             this.buttonAdv8.UseVisualStyle = true;
+            this.buttonAdv8.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv9
             // 
@@ -244,6 +250,7 @@
             this.buttonAdv9.TabIndex = 12;
             this.buttonAdv9.Text = "-";
             this.buttonAdv9.UseVisualStyle = true;
+            this.buttonAdv9.Click += new System.EventHandler(this.Arithematic_operations);
             // 
             // buttonAdv10
             // 
@@ -260,6 +267,7 @@
             this.buttonAdv10.TabIndex = 11;
             this.buttonAdv10.Text = "6";
             this.buttonAdv10.UseVisualStyle = true;
+            this.buttonAdv10.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv11
             // 
@@ -276,6 +284,7 @@
             this.buttonAdv11.TabIndex = 10;
             this.buttonAdv11.Text = "5";
             this.buttonAdv11.UseVisualStyle = true;
+            this.buttonAdv11.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv12
             // 
@@ -292,6 +301,7 @@
             this.buttonAdv12.TabIndex = 9;
             this.buttonAdv12.Text = "4";
             this.buttonAdv12.UseVisualStyle = true;
+            this.buttonAdv12.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv13
             // 
@@ -306,8 +316,9 @@
             this.buttonAdv13.Name = "buttonAdv13";
             this.buttonAdv13.Size = new System.Drawing.Size(67, 63);
             this.buttonAdv13.TabIndex = 16;
-            this.buttonAdv13.Text = "×";
+            this.buttonAdv13.Text = "*";
             this.buttonAdv13.UseVisualStyle = true;
+            this.buttonAdv13.Click += new System.EventHandler(this.Arithematic_operations);
             // 
             // buttonAdv14
             // 
@@ -324,6 +335,7 @@
             this.buttonAdv14.TabIndex = 15;
             this.buttonAdv14.Text = "3";
             this.buttonAdv14.UseVisualStyle = true;
+            this.buttonAdv14.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv15
             // 
@@ -340,6 +352,7 @@
             this.buttonAdv15.TabIndex = 14;
             this.buttonAdv15.Text = "2";
             this.buttonAdv15.UseVisualStyle = true;
+            this.buttonAdv15.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv16
             // 
@@ -356,6 +369,7 @@
             this.buttonAdv16.TabIndex = 13;
             this.buttonAdv16.Text = "1";
             this.buttonAdv16.UseVisualStyle = true;
+            this.buttonAdv16.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv17
             // 
@@ -372,6 +386,7 @@
             this.buttonAdv17.TabIndex = 20;
             this.buttonAdv17.Text = "÷";
             this.buttonAdv17.UseVisualStyle = true;
+            this.buttonAdv17.Click += new System.EventHandler(this.Arithematic_operations);
             // 
             // buttonAdv18
             // 
@@ -388,6 +403,7 @@
             this.buttonAdv18.TabIndex = 19;
             this.buttonAdv18.Text = "=";
             this.buttonAdv18.UseVisualStyle = true;
+            this.buttonAdv18.Click += new System.EventHandler(this.buttonAdv18_Click);
             // 
             // buttonAdv19
             // 
@@ -404,6 +420,7 @@
             this.buttonAdv19.TabIndex = 18;
             this.buttonAdv19.Text = ".";
             this.buttonAdv19.UseVisualStyle = true;
+            this.buttonAdv19.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv20
             // 
@@ -420,22 +437,7 @@
             this.buttonAdv20.TabIndex = 17;
             this.buttonAdv20.Text = "0";
             this.buttonAdv20.UseVisualStyle = true;
-            // 
-            // txtDisplay
-            // 
-            this.txtDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(245)))), ((int)(((byte)(253)))));
-            this.txtDisplay.BeforeTouchSize = new System.Drawing.Size(581, 90);
-            this.txtDisplay.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(202)))), ((int)(((byte)(221)))));
-            this.txtDisplay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDisplay.Location = new System.Drawing.Point(9, 41);
-            this.txtDisplay.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
-            this.txtDisplay.Multiline = true;
-            this.txtDisplay.Name = "txtDisplay";
-            this.txtDisplay.Size = new System.Drawing.Size(581, 90);
-            this.txtDisplay.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Office2010;
-            this.txtDisplay.TabIndex = 21;
-            this.txtDisplay.Text = "textBoxExt1";
-            this.txtDisplay.TextChanged += new System.EventHandler(this.textBoxExt1_TextChanged);
+            this.buttonAdv20.Click += new System.EventHandler(this.button_Click);
             // 
             // buttonAdv21
             // 
@@ -637,7 +639,7 @@
             this.buttonAdv33.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv33.IsBackStageButton = false;
             this.buttonAdv33.KeepFocusRectangle = false;
-            this.buttonAdv33.Location = new System.Drawing.Point(524, 200);
+            this.buttonAdv33.Location = new System.Drawing.Point(523, 200);
             this.buttonAdv33.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv33.Name = "buttonAdv33";
             this.buttonAdv33.Size = new System.Drawing.Size(67, 63);
@@ -653,7 +655,7 @@
             this.buttonAdv34.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv34.IsBackStageButton = false;
             this.buttonAdv34.KeepFocusRectangle = false;
-            this.buttonAdv34.Location = new System.Drawing.Point(455, 200);
+            this.buttonAdv34.Location = new System.Drawing.Point(454, 200);
             this.buttonAdv34.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv34.Name = "buttonAdv34";
             this.buttonAdv34.Size = new System.Drawing.Size(67, 63);
@@ -669,7 +671,7 @@
             this.buttonAdv35.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv35.IsBackStageButton = false;
             this.buttonAdv35.KeepFocusRectangle = false;
-            this.buttonAdv35.Location = new System.Drawing.Point(386, 200);
+            this.buttonAdv35.Location = new System.Drawing.Point(385, 200);
             this.buttonAdv35.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv35.Name = "buttonAdv35";
             this.buttonAdv35.Size = new System.Drawing.Size(67, 63);
@@ -685,7 +687,7 @@
             this.buttonAdv36.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv36.IsBackStageButton = false;
             this.buttonAdv36.KeepFocusRectangle = false;
-            this.buttonAdv36.Location = new System.Drawing.Point(317, 200);
+            this.buttonAdv36.Location = new System.Drawing.Point(316, 200);
             this.buttonAdv36.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv36.Name = "buttonAdv36";
             this.buttonAdv36.Size = new System.Drawing.Size(67, 63);
@@ -701,7 +703,7 @@
             this.buttonAdv37.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv37.IsBackStageButton = false;
             this.buttonAdv37.KeepFocusRectangle = false;
-            this.buttonAdv37.Location = new System.Drawing.Point(524, 135);
+            this.buttonAdv37.Location = new System.Drawing.Point(523, 135);
             this.buttonAdv37.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv37.Name = "buttonAdv37";
             this.buttonAdv37.Size = new System.Drawing.Size(67, 63);
@@ -717,7 +719,7 @@
             this.buttonAdv38.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv38.IsBackStageButton = false;
             this.buttonAdv38.KeepFocusRectangle = false;
-            this.buttonAdv38.Location = new System.Drawing.Point(455, 135);
+            this.buttonAdv38.Location = new System.Drawing.Point(454, 135);
             this.buttonAdv38.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv38.Name = "buttonAdv38";
             this.buttonAdv38.Size = new System.Drawing.Size(67, 63);
@@ -733,7 +735,7 @@
             this.buttonAdv39.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv39.IsBackStageButton = false;
             this.buttonAdv39.KeepFocusRectangle = false;
-            this.buttonAdv39.Location = new System.Drawing.Point(386, 135);
+            this.buttonAdv39.Location = new System.Drawing.Point(385, 135);
             this.buttonAdv39.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv39.Name = "buttonAdv39";
             this.buttonAdv39.Size = new System.Drawing.Size(67, 63);
@@ -750,7 +752,7 @@
             this.buttonAdv40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdv40.IsBackStageButton = false;
             this.buttonAdv40.KeepFocusRectangle = false;
-            this.buttonAdv40.Location = new System.Drawing.Point(317, 135);
+            this.buttonAdv40.Location = new System.Drawing.Point(316, 135);
             this.buttonAdv40.Margin = new System.Windows.Forms.Padding(1);
             this.buttonAdv40.Name = "buttonAdv40";
             this.buttonAdv40.Size = new System.Drawing.Size(67, 63);
@@ -760,12 +762,12 @@
             // 
             // autoLabel1
             // 
-            this.autoLabel1.Location = new System.Drawing.Point(10, 25);
+            this.autoLabel1.Location = new System.Drawing.Point(15, 64);
             this.autoLabel1.Name = "autoLabel1";
             this.autoLabel1.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Top;
-            this.autoLabel1.Size = new System.Drawing.Size(60, 13);
+            this.autoLabel1.Size = new System.Drawing.Size(0, 13);
             this.autoLabel1.TabIndex = 42;
-            this.autoLabel1.Text = "autoLabel1";
+            this.autoLabel1.Click += new System.EventHandler(this.autoLabel1_Click);
             // 
             // menuStrip1
             // 
@@ -856,75 +858,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Temperature";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 50);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Enter Value to Convert";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 276);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 20);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Result of Converted Value";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(175, 354);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(13, 354);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 35);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(188, 289);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "label3";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(9, 307);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 20);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Convert";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(182, 50);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(83, 26);
-            this.textBox1.TabIndex = 9;
-            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
@@ -977,11 +910,102 @@
             this.radioButton1.Text = "Celcius to Fahrenheit";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(182, 50);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(83, 26);
+            this.textBox1.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(9, 307);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 20);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Convert";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(188, 289);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 20);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "label3";
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(13, 354);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(86, 35);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(175, 354);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(6, 276);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Result of Converted Value";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(170, 20);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Enter Value to Convert";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // txtDisplay
+            // 
+            this.txtDisplay.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDisplay.Location = new System.Drawing.Point(12, 60);
+            this.txtDisplay.Multiline = true;
+            this.txtDisplay.Name = "txtDisplay";
+            this.txtDisplay.Size = new System.Drawing.Size(577, 71);
+            this.txtDisplay.TabIndex = 45;
+            this.txtDisplay.Text = "0";
+            this.txtDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtDisplay.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // autoLabel2
+            // 
+            this.autoLabel2.Location = new System.Drawing.Point(86, 41);
+            this.autoLabel2.Name = "autoLabel2";
+            this.autoLabel2.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Top;
+            this.autoLabel2.Size = new System.Drawing.Size(60, 13);
+            this.autoLabel2.TabIndex = 46;
+            this.autoLabel2.Text = "autoLabel2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(904, 466);
+            this.Controls.Add(this.autoLabel2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.autoLabel1);
             this.Controls.Add(this.buttonAdv21);
@@ -1004,7 +1028,6 @@
             this.Controls.Add(this.buttonAdv38);
             this.Controls.Add(this.buttonAdv39);
             this.Controls.Add(this.buttonAdv40);
-            this.Controls.Add(this.txtDisplay);
             this.Controls.Add(this.buttonAdv17);
             this.Controls.Add(this.buttonAdv18);
             this.Controls.Add(this.buttonAdv19);
@@ -1026,11 +1049,11 @@
             this.Controls.Add(this.buttonAdv2);
             this.Controls.Add(this.buttonAdv1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.txtDisplay);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.txtDisplay)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -1063,7 +1086,6 @@
         private Syncfusion.Windows.Forms.ButtonAdv buttonAdv18;
         private Syncfusion.Windows.Forms.ButtonAdv buttonAdv19;
         private Syncfusion.Windows.Forms.ButtonAdv buttonAdv20;
-        private Syncfusion.Windows.Forms.Tools.TextBoxExt txtDisplay;
         private Syncfusion.Windows.Forms.ButtonAdv buttonAdv21;
         private Syncfusion.Windows.Forms.ButtonAdv buttonAdv22;
         private Syncfusion.Windows.Forms.ButtonAdv buttonAdv23;
@@ -1106,6 +1128,8 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.TextBox txtDisplay;
+        private Syncfusion.Windows.Forms.Tools.AutoLabel autoLabel2;
     }
 }
 
