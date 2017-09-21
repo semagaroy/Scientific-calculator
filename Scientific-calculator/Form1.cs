@@ -15,6 +15,8 @@ namespace Scientific_calculator
         Double results = 0;
         String operation = "";
         bool enter_value = false;
+        float iCelsius, iFahrenheit;
+        char iOperation;
         public Form1()
         {
             InitializeComponent();
@@ -73,8 +75,8 @@ namespace Scientific_calculator
 
         private void temperatureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Width = 920;
-            txtDisplay.Width = 581;
+            this.Width = 616;
+            txtDisplay.Width = 275;
         }
 
         private void unitConversionToolStripMenuItem_Click(object sender, EventArgs e)
@@ -151,10 +153,55 @@ namespace Scientific_calculator
                 case "*":
                     txtDisplay.Text = (results * Double.Parse(txtDisplay.Text)).ToString();
                     break;
-                case "/":
+                case "÷":
                     txtDisplay.Text = (results / Double.Parse(txtDisplay.Text)).ToString();
                     break;
                 
+            }
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            iOperation = 'C';
+        }
+
+        private void rbFahToCel_CheckedChanged(object sender, EventArgs e)
+        {
+            iOperation = 'F';
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtConvert.Clear();
+            lblConvert.Text = "---";
+            rbCelToFah.Checked = false;
+            rbFahToCel.Checked = false;
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            switch (iOperation)
+            {
+                case 'C':
+                    //Cel to Fah
+                    iCelsius = float.Parse(txtConvert.Text);
+                    lblConvert.Text = ((((9 * iCelsius) / 5) + 32).ToString()) + "°F";
+
+
+                    break;
+
+                case 'F':
+                    //Fah to Cel
+                    iFahrenheit = float.Parse(txtConvert.Text);
+                    lblConvert.Text = ((((iFahrenheit - 32) * 5) / 9).ToString()) + "°C";
+
+                    break;
             }
         }
     }
